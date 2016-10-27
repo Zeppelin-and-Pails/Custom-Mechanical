@@ -1,15 +1,16 @@
-(module TEENSY_2.0 (layer F.Cu)
-
-  (fp_text reference U? (at 0 0) (layer F.SilkS) (effects (font (size 1.27 1.524) (thickness 0.2032))))
-  (fp_text value Val** (at 0 2.54) (layer F.SilkS) hide (effects (font (size 1.27 1.524) (thickness 0.2032))))
-  
+(module TEENSY_2.0 (layer F.Cu) (tedit 57F70082)
+  (fp_text reference REF** (at 0 0) (layer F.SilkS)
+    (effects (font (size 1.27 1.524) (thickness 0.2032)))
+  )
+  (fp_text value "Teensy 2.0" (at 8.89 -10.16) (layer F.Fab)
+    (effects (font (size 1.5 1.5) (thickness 0.15)))
+  )
   (fp_line (start -15.24 -8.89) (end -15.24 8.89) (layer F.SilkS) (width 0.381))
   (fp_line (start -15.24 8.89) (end 15.24 8.89) (layer F.SilkS) (width 0.381))
   (fp_line (start 15.24 8.89) (end 15.24 -8.89) (layer F.SilkS) (width 0.381))
   (fp_line (start 15.24 -8.89) (end -15.24 -8.89) (layer F.SilkS) (width 0.381))
   (fp_line (start -15.24 6.35) (end -12.7 6.35) (layer F.SilkS) (width 0.381))
   (fp_line (start -12.7 6.35) (end -12.7 8.89) (layer F.SilkS) (width 0.381))
-
   (pad 1 thru_hole rect (at -13.97 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
   (pad 2 thru_hole circle (at -11.43 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
   (pad 3 thru_hole circle (at -8.89 7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
@@ -41,5 +42,4 @@
   (pad 29 thru_hole circle (at -13.97 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
   (pad 30 thru_hole circle (at -3.81 -5.08 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
   (pad 31 thru_hole circle (at -3.81 5.08 270) (size 1.7526 1.7526) (drill 1.0922) (layers *.Cu *.SilkS *.Mask))
-
 )
